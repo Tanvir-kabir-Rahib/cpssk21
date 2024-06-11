@@ -8,11 +8,15 @@ export default function Home() {
       <section className="hidden md:inline md:col-span-2">
         <UserInformation/>
       </section>
-      <section className="col-span-full md:col-span-6 xl:col-sapn-4 xl:max-w-xl mx-auto w-full">
+      <section className="col-span-full md:col-span-6 xl:col-span-4 xl:max-w-xl mx-auto w-full">
         <PostForm/>
       </section>
-      <section className="hidden xl:inline justify-center col-span-2">
-
+      <section className="hidden xl:inline justify-center xl:col-span-2">
+        <div>
+          <h2>
+            Right Side Section
+          </h2>
+        </div>
       </section>
     </div>
   );

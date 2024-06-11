@@ -12,7 +12,7 @@ async function UserInformation() {
     const imageURL = user?.imageUrl;
     const username = user?.username;
     return (
-        <div className="flex flex-col justify-center items-center bg-white rounded-lg border py-4">
+        <div className="flex flex-col justify-center items-center bg-white rounded-lg border py-4 mr-6 lg:mr-0">
             <SignedIn>
                 <Avatar>
                     <AvatarImage src={imageURL ? imageURL : "https://github.com/shadcn.png"} />
